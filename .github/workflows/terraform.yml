@@ -3,7 +3,7 @@ name: Terraform Pipeline
 on:
   push:
     branches:
-      - 'feature/*'
+      - 'feature-branch/*'
       - main
   pull_request:
     branches:
